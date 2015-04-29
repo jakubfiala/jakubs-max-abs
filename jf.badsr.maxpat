@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 159.0, 137.0, 640.0, 480.0 ],
+		"rect" : [ 63.0, 99.0, 659.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,11 +31,12 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
+		"description" : "Buffer-powered scrubbable ADSR envelope",
+		"digest" : "Buffer-powered scrubbable ADSR envelope",
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"title" : "badsr",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",

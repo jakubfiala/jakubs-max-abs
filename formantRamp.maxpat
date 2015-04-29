@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,13 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 15.820899,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 347.833008, 311.877563, 82.0, 26.0 ],
+					"presentation_rect" : [ 362.166626, 311.877563, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "forminterp"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 267.166626, 395.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 265.83313, 396.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -57,7 +72,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.83313, 395.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 173.33313, 393.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -310,6 +324,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -328,16 +351,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "forminterp.maxpat",
-				"bootpath" : "~/Desktop/Sound/Max/Externals/Jakub Fiala",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"embedsnapshot" : 0
+ ]
 	}
 
 }

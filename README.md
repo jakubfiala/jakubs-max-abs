@@ -12,5 +12,6 @@ Just a few highlights as I can't be bothered to doc all of them:
 + [duration] counts seconds until the specified number
 + [badsr] is a badass scrubbable ADSR based on a specified [buffer~]
 + [intStringGenerator] doesn't work, sorry
++ [jit.beware] is a generic warning message generator for loud, flashy, horrible performance art. Needs more flexibility though.
 + lots more to come …
  
